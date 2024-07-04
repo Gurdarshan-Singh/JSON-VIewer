@@ -4,7 +4,6 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
 
 export default function Navbar() {
   return (
@@ -17,10 +16,15 @@ export default function Navbar() {
             color="inherit"
             aria-label="menu"
             sx={{ mr: 2 }}
-          >
-          </IconButton>
+          ></IconButton>
+          <img
+            src="https://news.mpac.ca/image/6329923.1600373458000/MPACLogo.png"
+            alt="MPAC logo"
+            width={100}
+            style={{marginRight: 10}}
+          />
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            MPAC JSON Viewer
+            JSON Viewer
           </Typography>
         </Toolbar>
       </AppBar>

@@ -143,7 +143,7 @@ const CodeCard = () => {
                 </Typography>
                 <TextField
                   multiline
-                  rows={30}
+                  rows={20}
                   variant="outlined"
                   fullWidth
                   value={jsonInput}
